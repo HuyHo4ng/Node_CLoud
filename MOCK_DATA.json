@@ -1,0 +1,4 @@
+[{"sword_name":"Dr","sword_type":"longsword","material":"bronze","price":222.46,"quantity_in_stock":521,"manufacturer":"Divanoodle","blade_length":38.63,"handle_material":"wood","weight":5.67,"arrival_date":"10/6/2022"},
+{"sword_name":"Honorable","sword_type":"rapier","material":"iron","price":58.61,"quantity_in_stock":404,"manufacturer":"Dynabox","blade_length":25.98,"handle_material":"leather","weight":9.71,"arrival_date":"11/2/2022"},
+{"sword_name":"Mrs","sword_type":"longsword","material":"bronze","price":210.13,"quantity_in_stock":85,"manufacturer":"Reallinks","blade_length":36.11,"handle_material":"bone","weight":9.44,"arrival_date":"5/21/2022"},
+{"sword_name":"Dr","sword_type":"rapier","material":"steel","price":120.58,"quantity_in_stock":83,"manufacturer":"Devcast","blade_length":28.48,"handle_material":"bone","weight":4.39,"arrival_date":"12/7/2022"}]

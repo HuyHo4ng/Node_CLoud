@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title><%= sword.sword_name %> Details</title>
+</head>
+<body>
+    <h1><%= sword.sword_name %> - <%= sword.sword_type %></h1>
+    <ul>
+        <li>Material: <%= sword.material %></li>
+        <li>Price: $<%= sword.price %></li>
+        <li>Quantity in Stock: <%= sword.quantity_in_stock %></li>
+        <li>Manufacturer: <%= sword.manufacturer %></li>
+        <li>Blade Length: <%= sword.blade_length %> inches</li>
+        <li>Handle Material: <%= sword.handle_material %></li>
+        <li>Weight: <%= sword.weight %> lbs</li>
+        <li>Arrival Date: <%= sword.arrival_date %></li>
+    </ul>
+    <a href="/">Back to Shop</a>
+</body>
+</html>

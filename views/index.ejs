@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Sword Shop</title>
+</head>
+<body>
+    <h1>Welcome to the Sword Shop</h1>
+    <div class="products">
+        <% swords.forEach(sword => { %>
+            <div class="product">
+                <h2><%= sword.sword_name %> - <%= sword.sword_type %></h2>
+                <p>Material: <%= sword.material %></p>
+                <p>Price: $<%= sword.price %></p>
+                <a href="/product/<%= sword.sword_name %>">View Details</a>
+            </div>
+        <% }); %>
+    </div>
+</body>
+</html>
